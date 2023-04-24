@@ -86,7 +86,7 @@ public class EjemplosConversion {
 
 		double d3 = 123456.789;
 		float f3 = (float) d3;
-		System.out.println("Conversión de int -> short");
+		System.out.println("Conversión de double -> float");
 		System.out.println(d3);
 		System.out.println(f3);
 
