@@ -7,11 +7,11 @@ public class EjemploConstantes {
 		final float PI = 3.141592f;
 		//PI = 3;
 		
-		final int unidad = 1;
-		//unidad = 2;
+		final int UNIDAD = 1;
+		//UNIDAD = 2;
 		
-		final String msg = "Hola Mundo";
-		//msg = "Hasta luego!";
+		final String EL_MENSAJE = "Hola Mundo";
+		//EL_MENSAJE = "Hasta luego!";
 
 	}
 
