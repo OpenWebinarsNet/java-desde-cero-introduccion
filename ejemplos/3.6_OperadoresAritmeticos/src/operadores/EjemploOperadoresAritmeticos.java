@@ -4,8 +4,9 @@ public class EjemploOperadoresAritmeticos {
 
 	public static void main(String[] args) {
 		
-		// Operadores aritméticos básicos
-		
+		/**
+		 * OPERADORES ARITMÉTICOS BÁSICOS
+		 */				
 		// Podemos usarlos con cualquier
 		// tipo numérico
 		System.out.println("OPERADORES ARITMÉTICOS BÁSICOS");
@@ -53,13 +54,15 @@ public class EjemploOperadoresAritmeticos {
 		d%= 3;
 		System.out.println(d);
 		
-		// Operadores unarios
-		
+		/**
+		 * OPERADORES UNARIOS
+		 */		
 		System.out.println("OPERADORES ARITMÉTICOS UNARIOS");
 
 		int e = 8;
 		int eNegativo = -e;
 		System.out.println(eNegativo);
+		
 		
 		int inc = 8;
 		inc++;
@@ -75,6 +78,18 @@ public class EjemploOperadoresAritmeticos {
 		int postIncremento = inc++; //8
 		System.out.println(postIncremento);
 
+		
+		/**
+		 * PRECEDENCIA DE OPERADORES
+		 */
+		
+		System.out.println("PRECEDENCIA DE OPERADORES");
+		
+		int r1 = 1 + 3 * 4; //13
+		int r2 = (1 + 3) * 4; // 16
+		System.out.println(r1);
+		System.out.println(r2);
+		
 		
 
 	}
