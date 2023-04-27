@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="00_HolaMundo/src"/>
+	<classpathentry kind="src" path="3.01_Variables/src"/>
+	<classpathentry kind="src" path="3.02_Tipos de datos/src"/>
+	<classpathentry kind="src" path="3.03_Inferencia/src"/>
+	<classpathentry kind="src" path="3.04_Conversion/src"/>
+	<classpathentry kind="src" path="3.05_Constantes/src"/>
+	<classpathentry kind="src" path="3.06_OperadoresAritmeticos/src"/>
+	<classpathentry kind="src" path="3.07_OperadoresLogicos/src"/>
+	<classpathentry kind="src" path="3.08_OtrosOperadores/src"/>
+	<classpathentry kind="src" path="3.09_EntradaDatos/src"/>
+	<classpathentry kind="src" path="3.10_Ejercicio1/src"/>
+	<classpathentry kind="src" path="3.11_Ejercicio2/src"/>
+	<classpathentry kind="src" path="4.03_If-else/src"/>
+	<classpathentry kind="src" path="4.04_Switch/src"/>
+	<classpathentry kind="src" path="4.05_Ejercicio1/src"/>
+	<classpathentry kind="src" path="4.06_Ejercicio2/src"/>
+	<classpathentry kind="src" path="4.07_BucleFor/src"/>
+	<classpathentry kind="src" path="4.08_BucleWhile/src"/>
+	<classpathentry kind="src" path="4.09_BucleDoWhile/src"/>
+	<classpathentry kind="src" path="4.10_Ejercicio3/src"/>
+	<classpathentry kind="src" path="4.11_Ejercicio4/src"/>
+	<classpathentry kind="src" path="5.01_Declaracion/src"/>
+	<classpathentry kind="src" path="5.02_Manipulacion/src"/>
+	<classpathentry kind="src" path="5.03_Metodos/src"/>
+	<classpathentry kind="output" path="00_HolaMundo/bin"/>
+</classpath>
