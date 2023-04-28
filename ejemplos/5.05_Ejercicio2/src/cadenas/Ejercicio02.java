@@ -66,8 +66,6 @@ public class Ejercicio02 {
 		
 		sc.close();
 		
-		
-
 	}
 
 }
