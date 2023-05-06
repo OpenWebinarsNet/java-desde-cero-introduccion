@@ -22,13 +22,13 @@ public class Ejercicio01 {
 
         String estacion = "";
 
-        if (mes == 1 || mes == 2 || (mes == 3 && dia <= 20) || (mes == 12 && dia >= 21)) {
+        if (mes == 1 || mes == 2 || (mes == 3 && dia < 20) || (mes == 12 && dia >= 21)) {
             estacion = "invierno";
         } else if (mes == 4 || mes == 5 || (mes == 3 && dia >= 20) || (mes == 6 && dia < 21)) {
             estacion = "primavera";
-        } else if (mes == 7 || mes == 8 || (mes == 6 && dia >= 21) || (mes == 9 && dia < 21)) {
+        } else if (mes == 7 || mes == 8 || (mes == 6 && dia >= 21) || (mes == 9 && dia < 23)) {
             estacion = "verano";
-        } else if (mes == 10 || mes == 11 || (mes == 9 && dia >= 21) || (mes == 12 && dia < 21)) {
+        } else if (mes == 10 || mes == 11 || (mes == 9 && dia >= 23) || (mes == 12 && dia < 21)) {
             estacion = "otoño";
         }
 
