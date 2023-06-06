@@ -61,3 +61,5 @@ local.properties
 
 
 .DS_Store
+.history
+.history/**

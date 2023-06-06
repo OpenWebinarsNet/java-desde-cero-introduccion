@@ -4,6 +4,11 @@
 
 1. Implementa un programa en Java que dada una fecha, nos indique cuál es la estación del año (en el hemisferio que tú quieras, aunque la solución se dará del hemisferio norte). El día del mes, y el mes del año se deben introducir como números enteros a través del teclado.
 
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/4.05_Ejercicio1/)
+
+También lo tienes disponible a continuación:
+
+
 ```java
 import java.util.Scanner;
 
@@ -17,15 +22,16 @@ public class Ejercicio01 {
 
         String estacion = "";
 
-        if (mes == 1 || mes == 2 || (mes == 3 && dia < 20) || (mes == 12 && dia >= 21)) {
+        if (mes == 1 || mes == 2 || (mes == 3 && dia <= 20) || (mes == 12 && dia >= 21)) {
             estacion = "invierno";
         } else if (mes == 4 || mes == 5 || (mes == 3 && dia >= 20) || (mes == 6 && dia < 21)) {
             estacion = "primavera";
-        } else if (mes == 7 || mes == 8 || (mes == 6 && dia >= 21) || (mes == 9 && dia < 23)) {
+        } else if (mes == 7 || mes == 8 || (mes == 6 && dia >= 21) || (mes == 9 && dia < 21)) {
             estacion = "verano";
-        } else if (mes == 10 || mes == 11 || (mes == 9 && dia >= 23) || (mes == 12 && dia < 21)) {
+        } else if (mes == 10 || mes == 11 || (mes == 9 && dia >= 21) || (mes == 12 && dia < 21)) {
             estacion = "otoño";
         }
+
 
         System.out.println("La estación del año correspondiente a la fecha introducida es: " + estacion);
         scanner.close();
@@ -35,6 +41,11 @@ public class Ejercicio01 {
 ```
 
 2. Realiza un programa en Java que, dado un día de la semana como un número entero, nos indique el día como texto. Haz dos versiones, una usando switch como expresión y otra como sentencia.
+
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/4.06_Ejercicio2/)
+
+También lo tienes disponible a continuación:
+
 
 Versión 1, con switch como operador o expresión 
 
@@ -118,6 +129,12 @@ public class Ejercicio02v2 {
 
 3. Escribe un programa en Java que acepte por teclado un número entero y nos diga la cantidad de dígitos que tiene. 
 
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/4.10_Ejercicio3/)
+
+También lo tienes disponible a continuación:
+
+
+
 ```java
 import java.util.Scanner;
 
@@ -143,6 +160,11 @@ public class Ejercicio03 {
 ```
 
 4. Calcula cuál es el resultado de sumar los `n` primeros números positivos. Introduce el valor de `n` a través del teclado.
+
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/4.11_Ejercicio4/)
+
+También lo tienes disponible a continuación:
+
 
 ```java
 import java.util.Scanner;

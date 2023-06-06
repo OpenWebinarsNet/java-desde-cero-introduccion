@@ -8,6 +8,10 @@ public class Ejercicio02 {
 
 		// Inicializamos el array
 		int[] miArray = { 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 8, 9 };
+		
+		// Lo clonamos para tener el original sin cambios y mostrarlo al final
+		int[] original = miArray.clone();
+
 
 		// Almacenamos la longitud original del array
 		int length = miArray.length;
@@ -33,7 +37,7 @@ public class Ejercicio02 {
 		int[] resultado = Arrays.copyOf(miArray, length);
 
 		System.out.println("Array original");
-		for(var elem : miArray)
+		for(var elem : original)
 			System.out.print(elem + ", ");
 		
 		System.out.println();

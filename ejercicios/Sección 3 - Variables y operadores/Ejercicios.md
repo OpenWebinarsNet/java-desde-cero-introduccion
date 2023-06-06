@@ -16,6 +16,10 @@ Además de mostrar el precio final por consola, debe mostrar si el portátil tie
 - Precio final <= 600 : NORMAL
 - Precio final > 600 : DE LUJO
 
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/3.10_Ejercicio1/)
+
+También lo tienes disponible a continuación:
+
 ```java
 import java.util.Scanner;
 
@@ -49,6 +53,11 @@ public class Ejercicio01 {
 ```
 
 2. Realiza un programa en Java que calcule la nota media de un alumno en la asignatura de Programación. La nota media se calcula como el promedio de las 3 notas trimestrales. Muestra la nota promedio redondeada y además, muestra un mensaje que indique si el alumno está APROBADO (nota final >= 5) o suspenso (nota final < 5).
+
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/3.11_Ejercicio2/)
+
+También lo tienes disponible a continuación:
+
 
 ```java
 public class Ejercicio02 {

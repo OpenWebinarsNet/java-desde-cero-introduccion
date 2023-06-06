@@ -15,7 +15,12 @@ O también frases completas:
 
 Hay que tener en cuenta que se desprecian espacios en blanco o vocales acentuadas.
 
-Implementa un detector de palíndromos en Java
+Implementa un detector de palíndromos en Java.
+
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/5.04_Ejercicio1/)
+
+También lo tienes disponible a continuación:
+
 
 ```java
 
@@ -88,6 +93,11 @@ public class Ejercicio01 {
 - Tiene alguna letra mayúscula y alguna letra minúscula.
 - Tiene algún carácter raro entre $ % _ *
 - Tiene algún número
+
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/5.05_Ejercicio2/)
+
+También lo tienes disponible a continuación:
+
 
 ```java
 import java.util.Scanner;

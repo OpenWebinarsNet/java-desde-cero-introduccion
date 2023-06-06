@@ -5,6 +5,11 @@
 
 1. Implementar un programa en Java que nos muestre el mayor elemento de una array de números enteros.
 
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/6.04_Ejercicio1/)
+
+También lo tienes disponible a continuación:
+
+
 ```java
 package arrays;
 
@@ -58,6 +63,11 @@ Arrays.copyOf(arrayOriginal, nuevaLongitud)
 
 > Si hay elementos repetidos, el array resultante será más pequeño que el array original.
 
+Puedes encontrar el código fuente completo de este ejercicio resuelto en vídeo [aquí](../../ejemplos/6.05_Ejercicio02/)
+
+También lo tienes disponible a continuación:
+
+
 ```java
 package arrays;
 
@@ -69,6 +79,10 @@ public class Ejercicio02 {
 
 		// Inicializamos el array
 		int[] miArray = { 1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 8, 9 };
+		
+		// Lo clonamos para tener el original sin cambios y mostrarlo al final
+		int[] original = miArray.clone();
+
 
 		// Almacenamos la longitud original del array
 		int length = miArray.length;
@@ -94,7 +108,7 @@ public class Ejercicio02 {
 		int[] resultado = Arrays.copyOf(miArray, length);
 
 		System.out.println("Array original");
-		for(var elem : miArray)
+		for(var elem : original)
 			System.out.print(elem + ", ");
 		
 		System.out.println();
